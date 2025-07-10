@@ -1,6 +1,7 @@
-header{
+.header-pic {
     background-image: url('/images/Hero-bg.png');
 }
+
 .nav-title {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -9,7 +10,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2px 125px;
+    margin: 0px 125px;
 }
 
 .btn-primary {
@@ -19,7 +20,7 @@ header{
     color: white;
     border: none;
     padding: 8px 35px;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 .banner {
@@ -27,12 +28,64 @@ header{
     font-optical-sizing: auto;
     font-style: normal;
     text-align: center;
-    margin: 0 125px;
-    margin: 100px 0px;
+    height: 220px;
+    margin: 30px 0px;
 }
 
 .banner-content {
     font-weight: 600;
     font-size: 40px;
-    margin: 15px 0px;
+    margin: 20px 0px;
+
+}
+
+.action {
+    margin: 40px 90px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+
+}
+
+.section-left {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: left;
+}
+
+.section-right {
+    border-radius: 20px;
+    height: 190px;
+    width: 200px;
+}
+
+.section-title {
+    background-color: #4E47FF1A;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 90px;
+    border-radius: 20px;
+    height: fit-content;
+    padding: 40px 150px;
+    
+}
+.productive {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.numbers {
+    font-weight: bolder;
+    color: #2f0afd;
+    justify-content: space-around;
+    font-size: 50px;
+}
+
+.details {
+    color: #25243280;
+    justify-content: space-around;
 }
