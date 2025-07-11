@@ -1,5 +1,5 @@
-.header-pic {
-    background-image: url('/images/Hero-bg.png');
+.header-picture {
+    background-image: url('images/Hero-bg.png');
 }
 
 .nav-title {
@@ -146,13 +146,22 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     width: 100%;
     padding: 2px 0px;
     margin-bottom: 24px;
-    border: none;
+    border: saddlebrown;
+     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 .text{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 1000;
+    font-weight: 900;
     font-style: normal;
    margin: 60px 0px;
    
+}
+button:hover {
+  background: linear-gradient(45deg, #FFA500, #FFD700);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
